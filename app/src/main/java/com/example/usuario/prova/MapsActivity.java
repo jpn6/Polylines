@@ -56,17 +56,6 @@ import java.util.List;
 public class MapsActivity extends AppCompatActivity
         implements OnSeekBarChangeListener, OnItemSelectedListener, OnMapReadyCallback {
 
-    // City locations for mutable polyline.
-    private static final LatLng ADELAIDE = new LatLng(-34.92873, 138.59995);
-    private static final LatLng DARWIN = new LatLng(-12.4258647, 130.7932231);
-    private static final LatLng MELBOURNE = new LatLng(-37.81319, 144.96298);
-    private static final LatLng PERTH = new LatLng(-31.95285, 115.85734);
-
-    // Airport locations for geodesic polyline.
-    private static final LatLng AKL = new LatLng(-37.006254, 174.783018);
-    private static final LatLng JFK = new LatLng(40.641051, -73.777485);
-    private static final LatLng LAX = new LatLng(33.936524, -118.377686);
-    private static final LatLng LHR = new LatLng(51.471547, -0.460052);
 
     // Custom Locations
     private static final LatLng TMT = new LatLng(41.867645, 0.420906);
