@@ -189,6 +189,7 @@ public class MapsActivity extends AppCompatActivity
                 .clickable(mClickabilityCheckbox.isChecked()));*/
 
         // A simple polyline across Australia. This polyline will be mutable.
+        // A simple polyline across Tamarit, Almacelles, LLeida, UDL. This polyline will be mutable.
         int color = Color.HSVToColor(
                 mAlphaBar.getProgress(), new float[]{mHueBar.getProgress(), 1, 1});
         mMutablePolyline = map.addPolyline(new PolylineOptions()
