@@ -180,15 +180,7 @@ public class MapsActivity extends AppCompatActivity
         // Override the default content description on the view, for accessibility mode.
         map.setContentDescription(getString(R.string.polyline_demo_description));
 
-        // A geodesic polyline that goes around the world.
-        /*map.addPolyline(new PolylineOptions()
-                .add(TMT, ALM, LL, UDL, TMT)
-                .width(INITIAL_STROKE_WIDTH_PX)
-                .color(Color.BLUE)
-                .geodesic(true)
-                .clickable(mClickabilityCheckbox.isChecked()));*/
 
-        // A simple polyline across Australia. This polyline will be mutable.
         // A simple polyline across Tamarit, Almacelles, LLeida, UDL. This polyline will be mutable.
         int color = Color.HSVToColor(
                 mAlphaBar.getProgress(), new float[]{mHueBar.getProgress(), 1, 1});
